@@ -22,7 +22,7 @@ ul {
 }
 
 body > header {
-    background-color: orange;
+    background-color: #99C68E;
     color: white;
     display: flex;
     height: 12vh;
@@ -66,6 +66,24 @@ body > main article {
     width: 70%;
 }
 
+#frog-gallery {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 16px; /* Space between grid items */
+    padding: 16px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 form {
     text-align: center;
 }
@@ -75,7 +93,7 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: #99C68E;
     display: flex;
 }
 
